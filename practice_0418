@@ -53,10 +53,11 @@
             <h1>アンケート</h1>
             <form action="survey.php" method="post">
                 <!-- <p>メールアドレス： <input type="text" name="email" size="50" maxlength="5" value="abc"></p> -->
-                <p>メールアドレス： <input type="text" name="email" size="50" placeholder="please enter email"></p>
-                <p>ログイン： <input type="password" name="password">
-                <input type="hidden" name="user_id" value="23423">
+                <p>メールアドレス： <input type="email" name="email"></p>
+                <p>料金： <input type="number" name="price"></p>
+                <p>誕生日： <input type="date" name="birthday"></p>
                 <p><input type="submit" value="送信！"></p>
+                <p>「この記号の文字参照は&amp;quot;です」</p>
             </form>
         </article>
 
